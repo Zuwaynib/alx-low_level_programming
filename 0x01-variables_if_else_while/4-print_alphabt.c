@@ -10,9 +10,9 @@ int main(void)
 	char alp[24] = "abcdfghijklmnoprstuvwxyz";
 	int i;
 
-	for (int i = 0; i < 24; i++)
+	for (i = 0; i < 24; i++)
 	{
-		_putchar(alp[i]);
+		putchar(alp[i]);
 	}
 	putchar('\n');
 	return (0);
